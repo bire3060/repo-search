@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.formInput {
+  @apply block w-full px-3 py-3 text-base font-normal text-gray-700 bg-clip-padding border z-0 border-gray-200 rounded-md transition focus:shadow-lg ease-in-out m-0 shadow-md focus:outline-none focus:text-gray-700;
+}
