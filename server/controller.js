@@ -8,15 +8,13 @@ const handleGet = async (req, res) => {
       `https://api.github.com/search/repositories?${queryString}`,
       {
         headers: {
-          Authorization:`Token ${process.env.TOKEN}`,
+          Authorization:`Token ${process.env.TOKEN?.replace(/\^/g,"")}`,
         },
       }
     );
     let repoList = await resData;
-    console.log(repoList.data.items.slice(0,1))
     res.json({data:repoList.data})
   } catch (err) {
-    console.log(err)
 
   
   }

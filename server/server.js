@@ -8,10 +8,9 @@ let cors = require('cors')
 app.use(cors())
 
 const route=require("./route")
-console.log(process.env.TOKEN)
 
 
-
+console.log(process.env.TOKEN?.replace(/\^/g,""))
 app.use("/repo",route)
 
 
