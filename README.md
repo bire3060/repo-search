@@ -53,7 +53,7 @@ run the script at the first level:
 ```terminal
 // in the root level
 $ cd server
-$ echo "TOKEN=Token&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" >> .env
+$ echo "TOKEN=^ghp_hB50baopqvxFjdk26iD^FQbYDRdLlYr1J3RiI^" >> .env
 ```
 
 ### Start
