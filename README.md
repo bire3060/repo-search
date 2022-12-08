@@ -2,7 +2,7 @@
 🌐 Github Repo Searching
 </h1>
 <p align="center">
- Expressjs, React, Nodejs
+ Expressjs, React, Nodejs,tailwind-css
 </p>
 
 
