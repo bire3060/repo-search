@@ -8,7 +8,7 @@ const handleGet = async (req, res) => {
       `https://api.github.com/search/repositories?${queryString}`,
       {
         headers: {
-          Authorization: `Token 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`,
+          Authorization:`Token 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`,
         },
       }
     );

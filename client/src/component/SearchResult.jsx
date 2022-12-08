@@ -53,7 +53,6 @@ const SearchResult = () => {
 
     return () => controller.abort();
   }, [search, currentButton, sort, size]);
-  console.log(allRepo);
   return (
     <div className=" px-12 md:px-24  py-12">
       <div className="flex flex-col p-8 ">
