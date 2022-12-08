@@ -61,7 +61,7 @@ $ echo "TOKEN=^ghp_hB50baopqvxFjdk26iD^FQbYDRdLlYr1J3RiI^" >> .env
 ```terminal
 $ cd server   // go to server folder
 $ npm i       // npm install packages
-$ npm run dev // run it locally
+$ node server.js // run it locally
 
 ```
 
