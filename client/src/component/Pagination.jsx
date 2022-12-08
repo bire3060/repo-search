@@ -95,7 +95,6 @@ const Pagination = ({
   
   };
 
-  console.log(page)
   //for next
   const handleNext = () => {
     if(currentButton===page){

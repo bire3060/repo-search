@@ -16,7 +16,7 @@ const SearchResult = () => {
   const [totalCount, setTotalCount] = useState("");
   const [search, setSearch] = useState("");
   const [size, setSize] = useState(10);
-  console.log(search);
+  
   //search optimization
   const handleChange = debounce(({ target: { value } }) => {
     setSearch(value);
@@ -41,7 +41,6 @@ const SearchResult = () => {
       })
       .catch((err) => {
         if (err?.message === "canceled") return;
-        console.log(err.message);
         setLoader(false);
       });
   };
